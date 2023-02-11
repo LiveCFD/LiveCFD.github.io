@@ -1,0 +1,74 @@
+<HTML>
+<TITLE>The LiveCFD Project</TITLE>
+<BODY BACKGROUND="bg.png" BGCOLOR="#fefefe" TEXT="#000000" LINK="#000000" VLINK="#000000" ALINK="#000000">
+<CENTER>
+<TABLE  BORDER="0" WIDTH="80%" CELLSPACING="0" CELLPADDING="0">
+ <TR><TD COLSPAN="1"><BR><BR><BR><BR></TD></TR>
+    <TR>
+        <TD ALIGN="center" VALIGN="bottom" WIDTH="100%">
+            <TABLE WIDTH="100%" CELLPADDING="0"><TR><TD BGCOLOR="#000000">
+            <TABLE WIDTH="100%" CELLPADDING="10"><TR><TD BGCOLOR="#fefefe">
+<FONT SIZE="+1"><B><A HREF="index.html">The LiveCFD Project</A></B></FONT>
+<P>
+Welcome to the LiveCFD project! This is a set of modules for Slackware Live Edition 15.0, that makes any x86_64 PC a KISS appliance for CFD in seconds.
+<P>
+<B>How to install:</B>
+<P>
+1. Create a persistent <A HREF="https://docs.slackware.com/slackware:liveslak">Slackware Live Edition 15.0 x86_64</A> on a bootable disk.
+<P>
+2. Download the modules you need:
+<P>
+<blockquote><A href="https://github.com/LiveCFD/modules/releases/download/LCFD-15.0-x86_64/0074-LCFD-B293-15.0-x86_64.sxz">LiveCFD Blender 2.93</A> <FONT SIZE="-1">- 389MB (md5 c6199d574ad9f75099298ce3ba1dd9b4)</FONT>: Default 'live' user bundled Blender version 2.93 with SnappyHexMesh GUI Add-on for preprocessing.
+</blockquote><P>
+<blockquote><A href="https://github.com/LiveCFD/modules/releases/download/LCFD-15.0-x86_64/0074-LCFD-P510-15.0-x86_64.sxz">LiveCFD ParaView 5.10</A> <FONT SIZE="-1">- 486MB (md5 526b81f819304751acdae5eadd118c66)</FONT>: Default 'live' user bundled ParaView version 5.10 for postprocessing.
+</blockquote><P>
+<blockquote><A href="https://github.com/LiveCFD/modules/releases/download/LCFD-15.0-x86_64/0074-LCFD-OF00-15.0-x86_64.sxz">LiveCFD OpenFOAM Build Dependencies</A> <FONT SIZE="-1">- 16MB (md5 0fcd37360c87259c60c8379dcf760148)</FONT>: System packages required for all OpenFOAM versions to compile.
+</blockquote><P>
+<blockquote><A href="https://github.com/LiveCFD/modules/releases/download/LCFD-15.0-x86_64/0074-LCFD-OF08-15.0-x86_64.sxz">LiveCFD OpenFOAM v8</A> <FONT SIZE="-1">- 217MB (md5 7f9fb6f8131265ae43a3ad671d9c45b6)</FONT>: Default 'live' user OpenFOAM version 8 installation.
+</blockquote><P>
+<blockquote><blockquote><A href="https://github.com/LiveCFD/modules/releases/download/LCFD-15.0-x86_64/0074-LCFD-OF08-doc.sxz">LiveCFD OpenFOAM v8 C++ Source Code Guide</A> <FONT SIZE="-1">- 485MB (md5 95b9fc7329206444f365672d50064963)</FONT>: OpenFOAM Version 8 documentation.
+</blockquote></blockquote><P>
+<blockquote><A href="https://github.com/LiveCFD/modules/releases/download/LCFD-15.0-x86_64/0074-LCFD-OF09-15.0-x86_64.sxz">LiveCFD OpenFOAM v9</A> <FONT SIZE="-1">- 209MB (md5 c1951bc6c172b767f4a2bffb530ac552)</FONT>: Default 'live' user OpenFOAM version 9 installation.
+</blockquote><P>
+<blockquote><blockquote><A href="https://github.com/LiveCFD/modules/releases/download/LCFD-15.0-x86_64/0074-LCFD-OF09-doc.sxz">LiveCFD OpenFOAM v9 C++ Source Code Guide</A> <FONT SIZE="-1">- 490MB (md5 7b02419e15a054d80235d9faa21057b1)</FONT>: OpenFOAM Version 9 documentation.
+</blockquote></blockquote><P>
+<blockquote><A href="https://github.com/LiveCFD/modules/releases/download/LCFD-15.0-x86_64/0074-LCFD-OF10-15.0-x86_64.sxz">LiveCFD OpenFOAM v10</A> <FONT SIZE="-1">- 251MB (md5 5d31a4708645bbf6540736087a0ee9ba)</FONT>: Default 'live' user OpenFOAM version 10 installation.
+</blockquote><P>
+<blockquote><blockquote><A href="https://github.com/LiveCFD/modules/releases/download/LCFD-15.0-x86_64/0074-LCFD-OF10-doc.sxz">LiveCFD OpenFOAM v10 C++ Source Code Guide</A> <FONT SIZE="-1">- 486MB (md5 3e85bbce3040fe2dfc45fecbcd5cae35)</FONT>: OpenFOAM Version 10 documentation.
+</blockquote></blockquote><P>
+
+3. Copy the modules into the "liveslak/addons" subdirectory, and reboot, e.g.
+<P>
+<code>live@darkstar:~$ sudo cp /home/live/Downloads/*.sxz /mnt/livemedia/liveslak/addons</code>
+<P>
+Enjoy!
+<P>
+<FONT SIZE="-1">
+---
+<P>
+This offering is not approved or endorsed by OpenCFD Limited, producer and distributor of the OpenFOAM software via www.openfoam.com, and owner of the OPENFOAM® and OpenCFD® trade marks.
+<P>
+ParaView® is a registered trademark of Kitware, Inc.
+<P>
+Blender® is a registered trademarks of Blender Foundation.
+<P>
+SnappyHexMesh GUI Addon for Blender© is a Copyright of Tuomo Keskitalo (tkeskita).
+<P>
+Linux® is the registred trademark of Linus Torvalds in the U.S. and other countries.
+<P>
+Slackware® is a registered trademark of Patrick Volkerding and Slackware Linux, Inc.
+<P>
+Slackware Live Edition (liveslak script) is provided by Eric Hameleers (AlienBOB).
+<P>
+
+Last modified: 2023-02-06 00:00 (UTC) by SolverBOB (renatosolverzin@gmail.com).
+Except where otherwise noted, content is licensed under the CC Attribution-Share Alike 4.0 International license
+</FONT>
+</TABLE>
+</TABLE>
+        <TD>
+    </TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>
